@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids</title>
+</head>
+<body>
+    <script src="http://www.java.com/js/deployJava.js"></script>
+    <script>
+        var attributes = {codebase:'http://java.sun.com/products/plugin/1.5.0/demos/jfc/Java2D',
+                        code:'RunGame.class',
+                        archive:'Asteroids.jar',
+                        width:710, height:540} ;
+        var parameters = {fontSize:16} ;
+        var version = '1.6' ;
+        deployJava.runApplet(attributes, parameters, version);
+    </script>
+    <!-- <OBJECT codetype="application/java"
+        classid="RunGame.class"
+        width="600" height="400">
+        Asteroids Applet.
+        </OBJECT> -->
+    <!-- <applet code="RunGame.class" archive="Asteroids.jar" width=600 height=400></applet> -->
+</body>
+</html>
